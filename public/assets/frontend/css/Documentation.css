@@ -1,0 +1,103 @@
+/*SearchBox
+-------------------------------------------------*/
+.MainBox {
+    position: relative !important;
+}
+
+.form-search {
+    width: 230px;
+    float: right;
+    position: absolute;
+    right: -12px;
+    top: 140px;
+    background: url("search-bg.gif") no-repeat;
+    padding-left: 15px;
+    height: 41px;
+    padding-top: 10px;
+}
+
+.search-left {
+    float: left;
+    padding-right: 5px;
+}
+
+.search-right {
+    float: left;
+    display: block;
+    position: relative;
+}
+
+    .search-right a {
+        text-decoration: none;
+        position: absolute;
+        right: -45px;
+        top: -3px;
+    }
+
+.form-search .input-buttom {
+    color: #ffffff;
+}
+
+.SearchTD {
+    display: none !important;
+}
+
+.form-search .label {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.search-text {
+    width: 150px;
+    border: none;
+    padding: 2px 5px;
+    background: transparent;
+}
+
+.SearchBoxGoogle input,  .SearchBoxGoogleMobile input {
+    display: block !important;
+    position: relative;
+    float: left !important;
+    background: #fff !important;
+    width: 260px !important;
+    border: solid 1px #ddd !important;
+    margin: 0 !important;
+    padding: 0 45px 0 8px !important;
+    height: 32px !important;
+    /* border: none; */
+    color: #444 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    transition: all 0.2s linear 0s !important;
+    -webkit-transition: all 0.2s linear 0s !important;
+    -moz-transition: all 0.2s linear 0s !important;
+}
+
+.SearchBoxGoogle {
+    position: absolute;
+    right: 0;
+    top: 44px;
+    height: 30px;
+}
+
+.SearchBoxGoogle .search-button {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: url(../img/SearchIconWhite.png) no-repeat center center #009DCC;
+    width: 38px;
+    height: 32px;
+    text-indent: -9999px;
+}
+.SearchBoxGoogleMobile .search-button {
+    display: block;
+    position: absolute;
+    left: 199px;
+    top: 0px;
+    background: url(SearchIconWhite.png) no-repeat center center #009DCC;
+    width: 38px;
+    height: 32px;
+    text-indent: -9999px;
+}
+.SearchBoxGoogleMobile {padding:15px 0;}

@@ -1,0 +1,39 @@
+/* Container Staff
+----------------------------------------------------------------------------- */
+.DNNContainer{ position:relative;}
+.DNNContainer h4{ margin:0; padding:0; font-size:18px;}
+.DNNContainer .ContainerTitle{ display: block; min-height: 28px; }
+.ContainerSpace{ padding:15px 0 0 0;}
+.ContainerSpace2{ padding:20px 0 0 0;}
+
+/* Container1 */
+.Container1 .Title1{ color:#444;}
+
+/* Container2 */
+.Container2 .Title2{ color:#318CE7;}
+
+/* Container3 */
+.Container3 .Title3{ padding-bottom:5px; border-bottom:1px solid #999; color:#444;}
+
+/* Container4 */
+.Container4 .Title4{ padding-bottom:5px; border-bottom:1px solid #318CE7; color:#318CE7;}
+
+/* Container5 */
+.Container5 .Title5{ background:url(images/ContainerPattern.png) #f5f5f5; padding:1px 10px; border:1px solid #ddd; color:#444;}
+.Container5 .ContainerPane{ border:1px solid #ddd; border-top:none; padding:15px 12px 12px 12px;}
+
+/* Container6 */
+.Container6 .Title6{ background:url(images/ContainerPattern.png) #318CE7; padding:1px 10px; border:1px solid #318CE7; color:#fff;}
+.Container6 .ContainerPane{ border:1px solid #318CE7; border-top:none; padding:15px 12px 12px 12px;}
+
+/* Container7 */
+.Container7{ border:1px solid #ddd; padding:5px 12px 12px;}
+.Container7 .Title7{ padding-bottom:5px; border-bottom:1px solid #ddd; color:#444;}
+
+/* Container8 */
+.Container8{ border:1px solid #318CE7; padding:5px 12px 12px;}
+.Container8 .Title8{ padding-bottom:5px; border-bottom:1px solid #318CE7; color:#318CE7;}
+
+/* Footer */
+.FooterContainer .FooterTitle{ color:#cdcdcd;}
+.FooterContainer .ContainerPane{ color:#cdcdcd;}

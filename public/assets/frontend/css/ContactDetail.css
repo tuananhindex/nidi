@@ -1,0 +1,248 @@
+﻿
+
+    .contact-detail .contact-title {
+        font-weight: bold;
+        font-size: 30px;
+        color: #0085ad;
+        text-align: center;
+        padding-bottom: 15px;
+        line-height: 35px;
+    }
+
+    .contact-detail .contact-note {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .contact-detail .title {
+        font-size: 18px;
+        color: #0085ad;
+        font-weight: bold;
+        padding-top: 15px;
+        line-height: 24px;
+    }
+
+    .contact-detail .phone {
+        font-size: 32px;
+        line-height: 32px;
+        color: #FF040A;
+        font-weight: bold;
+        padding: 15px 0 0 0;
+    }
+
+    .contact-detail .separate {
+        border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    .contact-detail .time {
+        padding-top: 10px;
+    }
+
+    .contact-detail .select-location {
+        padding-top: 10px;
+    }
+
+    .contact-detail .product-type, .contact-detail .location-name {
+        color: #0085ad;
+        font-size: 18px;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
+
+    .contact-detail a {
+        color: #000;
+    }
+
+    .contact-detail .email-support {
+        color: #0085ad;
+    }
+
+    .contact-detail a:hover {
+        color: blue;
+    }
+
+
+    .contact-detail .form-content .row {
+        min-height: 40px;
+    }
+
+    .contact-detail .riTextBox {
+        height: 33px !important;
+    }
+
+    .contact-detail .form-content {
+        padding-top: 10px;
+    }
+
+    .contact-detail .text-area {
+        height: 100px !important;
+    }
+
+    .contact-detail .right {
+        float: right;
+    }
+
+    .contact-detail .btn-send {
+        padding-top: 10px;
+    }
+
+    .contact-detail select {
+        border-color: #8e8e8e #b8b8b8 #b8b8b8 #8e8e8e;
+    }
+
+    .contact-detail .pn-left {
+        border-left: 2px solid #ddd;
+    }
+
+    .contact-detail .required {
+        color: red;
+        padding-left: 4px;
+    }
+
+    .contact-detail .form-content .col-cls {
+        padding-right: 0px;
+    }
+
+
+    .contact-detail .orange-button {
+        background-color: #E06924;
+        font-size: 22px;
+        padding: 12px;
+        text-align: center;
+        margin-top: 12px;
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    .contact-detail  .orange-button a{
+        color: #fff !important;
+
+    }
+
+    .contact-detail .validate {
+        color: red;
+        padding-bottom: 10px;
+    }
+
+    .contact-detail .purchase {
+        border-top: 1px solid #ddd;
+        margin-top: 10px;
+    }
+
+
+    .contact-detail .circle-bg {
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        background: #0085ad;
+        position: absolute;
+        top: 7px;
+        left: 7px;
+    }
+
+    .contact-detail .other-text {
+        color: white;
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+
+    .contact-detail .circle {
+        width: 75px;
+        height: 75px;
+        border: 1px solid #ddd;
+        border-radius: 75px;
+        top: 10px;
+        position: absolute;
+    }
+
+    .contact-detail .other-box {
+        height: 100px;
+        width: 100px;
+        background: #fff;
+        position: relative;
+        left: -53px;
+        top: 30px;
+    }
+
+    .contact-detail .form-label {
+        height: auto;
+        padding-top: 7px;
+    }
+
+
+
+.capcha-confirm input[type=text] {
+    height: 33px !important;
+}
+
+.capcha-confirm img {
+    margin-bottom: 5px;
+}
+
+.contact-detail .capcha-confirm {
+    position: relative;
+}
+
+.contact-detail .cpt-error {
+    color: red;
+}
+
+
+.contact-detail .capcha-confirm label {
+    font-style: italic;
+    padding-left: 10px;
+    font-weight: normal;
+}
+
+.cbo-support table tr {
+    height: 32px;
+}
+
+.contact-detail .captcha-note {
+    font-style: italic;
+}
+
+
+.contact-detail .rcRefreshImage {
+    background: url(../img/RefreshBlue.png) no-repeat scroll 0 0 transparent;
+    height: 26px;
+    width: 25px;
+    position: absolute;
+    top: 12px;
+    left: 188px;
+}
+
+.contact-detail .where-cls {
+    color: #0085ad;
+    font-size: 16px;
+    padding-top: 6px;
+}
+
+.contact-detail .lst-product {
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: #0085ad;
+}
+
+
+@media screen and (max-width:991px) {
+    .contact-detail .pn-left {
+        border-right: none;
+    }
+
+    .contact-detail .other-box {
+        top: 0 !important;
+        margin: 0 auto;
+    }
+
+    .contact-detail .form-label {
+        padding-top: 0;
+    }
+
+    .contact-detail .other-box {
+        left: 0;
+    }
+}

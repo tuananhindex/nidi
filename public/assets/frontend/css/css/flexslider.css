@@ -1,0 +1,86 @@
+/* FlexSlider */
+.FlexSlider .slides > li{ display:none;}
+.FlexSlider .slides{ zoom:1;}
+.slides:after{ content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.loading .flex-viewport{ max-height:300px;}
+.flex-viewport{ max-height:2000px; -webkit-transition:all 1s ease; -moz-transition:all 1s ease; -o-transition:all 1s ease; transition:all 1s ease;}
+.flex-direction-nav{ display:none; text-indent:-9999px;}
+.flex-control-nav, .flex-direction-nav { margin:0; padding:0; list-style:none;}
+
+.FlexSlider{ position:relative; margin:0 auto; padding:0;}
+.FlexSlider ul{ margin:0; padding:0;}
+.FlexSlider ul li{ position:relative; padding:30px 0; height:360px}
+.FlexSlider .FsText{ float:left; padding:70px 0 0 0; width:65%; color:#fff;}
+.FlexSlider .FsText .style1 {font-size:90px; line-height: 100px;}
+.FlexSlider .FsText .style2 {font-size:55px; line-height: 65px;}
+.FlexSlider .FsText .style3 {font-size:30px; line-height: 40px;}
+.FlexSlider .FsText .style4 {font-size:16px; line-height: 26px;}
+.FlexSlider .FsText h3{ font-size:52px; text-transform:uppercase;}
+.FlexSlider .FsText p{ font-size:24px; font-weight:normal; text-transform:uppercase; margin:40px 0;}
+.FlexSlider .FsText a.FsBtn{ display:inline-block; border:1px solid #f8f8f8; padding:18px 40px; font-size:16px; color:#fff; text-transform:uppercase;}
+.FlexSlider .FsText a:hover{ text-decoration:none;}
+.FlexSlider .FsImg{ float:right; width:35%;}
+.FlexSlider .FsImg img{ width:100%;}
+
+/* Control Nav */
+.flex-control-nav { position: absolute; width: 100%; height:10px; bottom:40px; text-align:center;}
+.flex-control-nav li { display: inline-block; position:relative; zoom: 1; *display: inline;}
+.flex-control-paging li a { display:inline-block; position:relative; background:none; border:2px solid #fff; border-radius:50%; width:15px; height:15px; margin:0 10px 0 0; cursor: pointer; text-indent: -9999px;}
+.flex-control-paging li a.flex-active { background:#fff; cursor: default; }
+.flex-control-thumbs { margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; cursor: pointer;}
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; cursor: default;}
+
+@media only screen and (max-width: 980px) {
+.FlexSlider{ position:relative; margin:0 auto; padding:0;}
+.FlexSlider ul{ margin:0; padding:0;}
+.FlexSlider ul li{ position:relative; padding:20px 0; height:360px}
+.FlexSlider .FsText{ float:left; padding:40px 0 0 10px; width:65%; color:#fff;}
+
+.FlexSlider .FsText h3{ font-size:30px; text-transform:uppercase;}
+.FlexSlider .FsText p{ font-size:14px; font-weight:normal; text-transform:uppercase; margin:20px 0;}
+.FlexSlider .FsText a.FsBtn{ display:inline-block; border:1px solid #f8f8f8; padding:12px 20px; font-size:16px; color:#fff; text-transform:uppercase;}
+.FlexSlider .FsText a:hover{ text-decoration:none;}
+.FlexSlider .FsImg{ float:right; width:35%; padding-right:10px;}
+.FlexSlider .FsImg img{ width:100%;}
+}
+
+@media only screen and (max-width: 768px) {
+.FlexSlider{ position:relative; margin:0 auto; padding:0;}
+.FlexSlider ul{ margin:0; padding:0;}
+.FlexSlider ul li{ position:relative; padding:20px 0; height: 300px}
+.FlexSlider .FsText{ float:left; padding:20px 0 0 10px; width:65%; color:#fff;}
+.FlexSlider .FsText .style1 {font-size:60px; line-height: 70px;}
+.FlexSlider .FsText .style2 {font-size:40px; line-height: 50px;}
+.FlexSlider .FsText .style3 {font-size:25px; line-height: 35px;}
+.FlexSlider .FsText .style4 {font-size:16px; line-height: 26px;}
+.FlexSlider .FsText h3{ font-size:22px; text-transform:uppercase;}
+.FlexSlider .FsText p{ font-size:14px; font-weight:normal; text-transform:uppercase; margin:10px 0;}
+.FlexSlider .FsText a.FsBtn{ display:inline-block; border:1px solid #f8f8f8; padding:12px 20px; font-size:16px; color:#fff; text-transform:uppercase;}
+.FlexSlider .FsText a:hover{ text-decoration:none;}
+.FlexSlider .FsImg{ float:right; width:35%; padding-right:10px;}
+.FlexSlider .FsImg img{ width:100%;}
+
+/* Control Nav */
+.flex-control-nav { position: absolute; bottom:20px; text-align:center; z-index:9999;}
+.flex-control-paging li a { width:10px; height:10px;}
+}
+
+@media only screen and (max-width: 480px) {
+.FlexSlider{ position:relative; margin:0 auto; padding:0;}
+.FlexSlider ul{ margin:0; padding:0;}
+.FlexSlider ul li{ position:relative; padding:20px 0; height: 300px}
+.FlexSlider .FsText{ float:left; padding:5px 0 0 10px; width:65%; color:#fff;}
+.FlexSlider .FsText .style1 {font-size:35px; line-height: 40px;}
+.FlexSlider .FsText .style2 {font-size:25px; line-height: 35px;}
+.FlexSlider .FsText .style3 {font-size:18px; line-height: 28px;}
+.FlexSlider .FsText .style4 {font-size:13px; line-height: 21px;}
+.FlexSlider .FsText h3{ font-size:16px; text-transform:uppercase;}
+.FlexSlider .FsText p{ font-size:12px; font-weight:normal; text-transform:uppercase; margin:0;}
+.FlexSlider .FsText a.FsBtn{ display:inline-block; border:1px solid #f8f8f8; padding:6px 12px; font-size:12px; color:#fff; text-transform:uppercase;}
+.FlexSlider .FsText a:hover{ text-decoration:none;}
+.FlexSlider .FsImg{ float:right; width:35%; padding-right:10px;}
+.FlexSlider .FsImg img{ width:100%;}
+}

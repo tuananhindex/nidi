@@ -1,0 +1,97 @@
+﻿#news_category .newsbycategory {
+}
+
+#news_category .separate {
+    border-bottom: solid 1px #ddd;
+    height: 1px;
+    margin: 15px 0;
+}
+
+
+#news_category a.link {
+    color: #000;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+    #news_category a.link:hover {
+        color: #0085ad;
+    }
+
+.nbc_content {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.fl {
+    float: left;
+    margin: 0;
+}
+
+.fr {
+    float: right;
+    padding-top: 5px;
+}
+
+.img-border {
+    border: 1px solid #eee !important;
+    padding: 5px;
+}
+
+.img-subject {
+    width: 100%;
+    height: 189px;
+    background-color: #FFFFFF;
+    margin-right: 8px;
+    margin-top: 2px;
+    padding:5px; border:solid 1px #ddd;
+}
+
+.nbc_title {
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+#news_category .nbc_summary {
+    text-align:justify;
+}
+
+#news_category a.nbc_viewdetail {
+    background: url(Images/detail_arrow.png) no-repeat 100% 50%;
+    padding-right: 15px;
+    color: #0085ad;
+}
+
+h1.news-category-title {font-size:22px;}
+
+    #news_category a.nbc_viewdetail:hover {
+        text-decoration: underline;
+    }
+
+
+.head-seperator {
+    border-bottom: 1px solid #DDDDDD;
+    color: #0085ad;
+}
+
+.padtop10 {
+    padding-top: 10px;
+}
+
+.breadcrumb.news-nav a {
+    text-decoration: none !important;
+    color: #0085ad !important;
+}
+.breadcrumb.news-nav {
+    border-radius: 0;
+    border-bottom: solid 1px #ddd;
+}
+
+
+.RadDataPager .rdpNumPart span {
+    float: left;
+    padding: 0 5px 0 10px !important;
+}
+.RadDataPager {margin-top:10px;}

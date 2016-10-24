@@ -1,0 +1,59 @@
+﻿.conference-cls {
+    padding-top: 10px;
+}
+
+    .conference-cls .img-cls {
+        width: 100px;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    .conference-cls .conference-name {
+    }
+
+.conference-name a {
+    color: #0085ad;
+}
+    .conference-name a:hover {
+        color: #FF9B00;
+        text-decoration: none;
+    }
+
+.conference-cls .time, .conference-cls .location, .conference-cls .price {
+    color: #0085ad;
+}
+
+.conference-cls .conference-content {
+    padding: 5px 0;
+}
+
+.conference-cls .time-content, .conference-cls .location-content ,.conference-cls .price-content {
+    font-weight: bold;
+}
+
+
+.conference-cls .conference-item:not(:last-child) {
+    border-bottom: dotted 1px #ddd;
+    margin-bottom: 10px;
+}
+
+
+.conference-cls .register-cls {
+    border: 1px solid #DDDDDD;
+    padding: 5px 8px 5px 20px;
+    margin: 10px 0;
+    border-radius: 3px;
+    text-decoration: none !important;
+    color: #0085ad !important;
+    background: url(Images/select.png) no-repeat 2% 38%;
+}
+
+
+.conference-title {
+    border-bottom: solid 1px #ddd !important;
+    color: #0085ad !important;
+    padding-bottom: 5px;
+    display: block;
+    min-height: 28px;
+}

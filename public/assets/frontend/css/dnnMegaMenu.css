@@ -1,0 +1,16 @@
+﻿ul.MegaRoot { width:100%; list-style:none; margin:0; padding:0;  height:90px;}
+ul.MegaRoot ul { margin:0; padding:10px 0;}
+ul.MegaRoot li { float:left; list-style:none none; position:relative; margin:0 10px 0 0;}
+
+ul.MegaRoot li.root a { display:block; position:relative; color:#555; font-size:14px; border-top:4px solid #fff;}
+ul.MegaRoot li.dnnSelected a, ul.MegaRoot li.dnnBreadcrumb a, ul.MegaRoot li.root a:hover { border-top:4px solid #318CE7; color:#318CE7; text-decoration:none;}
+ul.MegaRoot li.root a span { display:block; height:90px; line-height:90px; margin:0; padding:0 15px;}
+
+ul.MegaRoot .MegaSub { display:none; position:absolute; float:left; top:94px; left:-1px; z-index: 1200; background:#fff; border:1px solid #e1e1e1; border-top:1px solid #318CE7; border-radius:0 0 5px 5px; box-shadow:1px 1px 1px 1px rgba(0,0,0,0.1);}
+ul.MegaRoot .MegaSub li.category { display:block; float:left; width:180px; margin:0;}
+ul.MegaRoot .MegaSub li.category a { display:block; margin:0; padding:0; background:none; border:none;}
+ul.MegaRoot .MegaSub li.category a span { display:block; background:none; margin:0 15px 0 15px; padding:0; border-bottom:1px solid #e8e8e8; height:45px; line-height:45px; font-size:12px; text-transform:inherit; color:#666;}
+ul.MegaRoot .MegaSub li.dnnSelected > a span, ul.MegaRoot .MegaSub li.category a:hover span { color:#318CE7;}
+
+ul.MegaRoot li.category li.leaf, ul.MegaRoot li.category li.dnnLast { clear:left; float:none; position:static; padding:0 0 0 15px;}
+ul.MegaRoot li.category li.leaf a span { font-size:12px; height:30px; line-height:30px; border:0; color:#777;}

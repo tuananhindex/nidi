@@ -1,0 +1,600 @@
+/* 
+ * Deprecated DNN CSS class names will remain available for some time
+ * before being  permanently removed. Removal will occur according to
+ * the  following process:
+ *
+ * 1. Removal will only occur with a major (x.y) release, never
+ *    with a maintenance (x.y.z) release.
+ * 2. Removal will not occur less than six months after the release
+ *    when it was deprecated.
+ * 3. Removal will not occur until after deprecation has been noted 
+ *    in at least two major releases.
+ *
+ *                                              |        |Planned |
+ *  Name                                        |Release |Removal |
+ *----------------------------------------------+--------+--------+
+ * Mod{NAME}C                                     5.6.2    6.2
+ *   {NAME} = sanitized version of the DesktopModule Name 
+ *   Used on <div> tag surrounding Module Content, inside container
+ *----------------------------------------------+--------+--------+
+ */  
+
+
+/* Custom css------------------------------------------------------*/
+.n_content ul {list-style-position: inside;padding-left: 25px;}
+.product-detail-tab a:link, .product-detail-tab a:active, .product-detail-tab a:visited {color:#0085ad}
+.ui-dialog-content .zopim {display:none !important}
+.product-detail-tab .nav-tabs > li {width:14.28% !important}
+.product-download .history {border:none !important; padding-bottom:15px; }
+.product-support .history hr {padding:0; margin:5px 0;}
+.LogoRow {min-height: 55px !important;}
+
+*+html .riSingle input.riTextBox, *+html .RadForm.rfdTextbox .riSingle input.rfdDecorated[type="text"], .RadInput .riTextBox, .RadInputMgr {height:35px !important;}
+
+.FlexSlider .FsText {padding-top:0 !important}
+.FlexSlider .FsText h3 {font-size:30px !important}
+/*.FlexSlider ul li {height:400px !important}*/
+
+.Container4 .Title4 {
+color: #0085ad !important;
+  border-bottom:solid 1px #ccc !important;
+padding: 3px 0 8px 0;}
+
+.col-md-18.border-column .Container4 .Title4 {
+border-top: solid 1px #d8d8d8 !important;
+color: #0085ad !important;
+border-bottom: none !important;
+padding: 3px 0 5px 10px;
+background-color: #f2f2f2;
+}
+
+
+.SearchBox input { width:261px !important}
+
+.BreadcrumbSection {background:#f2f2f2 !important; min-height: 65px !important}
+.BreadcrumbSection .BreadcrumbRight {padding-top:24px !important; float:left; color:#000}
+.BreadcrumbSection .BreadcrumbRight a {color:#000;}
+.BreadcrumbSection .BreadcrumbLeft {display:none}
+
+
+
+.InnerContent {padding-top: 0!important}
+
+.dnnFormItem input[type="text"], .dnnFormItem select, .dnnFormItem input[type="email"], .dnnFormItem input[type="search"], .dnnFormItem input[type="password"] { padding:8px !important}
+.dnnFormItem select {height:auto !important;}
+.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction {color:#efefef !important}
+.dnnPrimaryAction a {color:#efefef !important; display:block;}
+.dnnSecondaryAction a {display:block;}
+.Normal, .NormalDisabled, .NormalDeleted {color:#000;}
+
+.support-title {
+  padding-bottom: 15px;
+  color: #0085ad !important;
+  font-size: 20px;
+}
+
+.LoginBar .registerGroup li {min-width:40px;}
+body > form #ControlBar_ControlPanel {z-index:999999 !important}
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+}
+
+/* background color for the content part of the pages */
+Body
+{
+}
+
+.ControlPanel {
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+}
+
+.LeftPane  { 
+}
+
+.ContentPane  { 
+}
+
+.RightPane  { 
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+}
+
+/* hyperlink style for the selected tab */
+A.SelectedTab:link {
+}
+
+A.SelectedTab:visited  {
+}
+
+A.SelectedTab:hover    {
+}
+
+A.SelectedTab:active   {
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+}
+
+A.OtherTabs:visited  {
+}
+
+A.OtherTabs:hover    {
+}
+
+A.OtherTabs:active   {
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head   {
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+}
+
+.NormalRed
+{
+}
+
+.NormalBold
+{
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+}
+
+A.CommandButton:visited  {
+}
+
+A.CommandButton:hover    {
+}
+    
+A.CommandButton:active   {
+}
+
+/* button style for standard HTML buttons */
+.StandardButton     {
+}
+
+/* GENERIC */
+H1  {
+}
+
+H2  {
+}
+
+H3  {
+}
+
+H4  {
+}
+
+H5, DT  {
+}
+
+H6  {
+}
+
+TFOOT, THEAD    {
+}
+
+TH  {
+}
+
+A:link  {
+}
+
+A:visited   {
+}
+
+A:hover {
+}
+
+A:active    {
+}
+
+SMALL   {
+}
+
+BIG {
+}
+
+BLOCKQUOTE, PRE {
+}
+
+
+UL LI   {
+}
+
+UL LI LI    {
+}
+
+UL LI LI LI {
+}
+
+OL LI   {
+}
+
+OL OL LI    {
+}
+
+OL OL OL LI {
+}
+OL UL LI   {
+}
+
+HR {
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+}
+
+/* Menu-Styles */
+/* Module Title Menu */
+.ModuleTitle_MenuContainer {
+}
+
+.ModuleTitle_MenuBar {
+}
+
+.ModuleTitle_MenuItem {
+}
+
+.ModuleTitle_MenuIcon {
+}
+
+.ModuleTitle_SubMenu {
+}
+
+.ModuleTitle_MenuBreak {
+}
+
+.ModuleTitle_MenuItemSel {
+}
+
+.ModuleTitle_MenuArrow {
+}
+
+.ModuleTitle_RootMenuArrow {
+}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+}
+
+.MainMenu_MenuBar {
+}
+
+.MainMenu_MenuItem {
+}
+
+.MainMenu_MenuIcon {
+}
+
+.MainMenu_SubMenu {
+}
+
+.MainMenu_MenuBreak {
+}
+
+.MainMenu_MenuItemSel {
+}
+
+.MainMenu_MenuArrow {
+}
+
+.MainMenu_RootMenuArrow {
+}
+
+/* Login Styles */
+.LoginPanel{
+}
+
+.LoginTabGroup{
+}
+
+.LoginTab {
+}
+
+.LoginTabSelected{
+}
+
+.LoginTabHover{
+}
+
+.LoginContainerGroup{
+}
+
+.LoginContainer{
+}
+
+
+/*style cho màn hình Chính sách tuyển dụng*/
+
+.misa-page-other .header {
+    background-color: #009DCC;
+    height: 46px;
+}
+
+.misa-page-other .header .container {
+    color: #fff;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+.misa-recruit-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+}
+
+.misa-recruit-item .title {
+    line-height: 25px;
+    font-size: 18px;
+    padding-top:5px;
+    padding-bottom:10px;
+    
+}
+
+.misa-recruit-item .title a{
+    color:#0085ad;
+    text-decoration:none;
+}
+
+/*style cho màn hình Hội đồng quản trị*/
+
+.misa-leader ul li {
+    display: inline-block;
+    padding: 10px 35px;
+    vertical-align:top;
+}
+
+.misa-leader .center {
+    text-align: center;
+}
+
+.misa-leader .info {
+    background: #ddd;
+    height: auto;
+    padding: 10px 5px;
+    width:200px;
+}
+
+.misa-leader .info .name {
+    font-weight:bold;
+}
+
+/*style cho màn hình Giới thiệu*/
+
+.misa-introduce .company-name {
+    text-align: center;
+    color: #0085ad;
+    font-size: 22px;
+    padding-bottom: 15px;
+	line-height: 28px;
+}
+
+.misa-introduce .title {
+    color: #0085ad;
+    font-size: 22px;
+    padding: 15px 0;
+ 	line-height:28px;
+}
+
+.misa-introduce-img-cls {
+    padding: 10px 0;
+}
+
+.misa-introduce .slogan {
+    font-size: 30px;
+    line-height:35px;
+    padding-bottom: 20px;
+}
+
+.misa-introduce .bold {
+    font-weight: bold;
+}
+
+.misa-introduce .sperate {
+    border-bottom: 1px solid #0085ad;
+    padding: 10px 0;
+}
+
+.misa-introduce ul li {
+    display: inline-block;
+    padding: 0 30px 30px 30px;
+}
+
+.misa-introduce .org-name{
+    text-align:center;
+    padding-top:5px;
+}
+
+
+
+/*style cho màn hình Hợp tác đào tạo*/
+
+    .misa-training .train-book ul li {
+        display: inline-block;
+        padding: 0 35px 35px 35px;
+        width: 300px;
+    }
+
+    .misa-training .train-book {
+        text-align: center;
+    }
+
+
+        .misa-training .train-book .textbook {
+            font-size: 15px;
+            color: #0085ad;
+            line-height: 22px;
+            padding-bottom: 10px;
+        }
+
+    .misa-training .download {
+        border-top: 1px solid #ddd;
+        padding-top: 20px;
+    }
+
+    .misa-training a {
+        text-decoration: none;
+        color: #0085ad;
+    }
+
+    .misa-training .collaborate-list .org-list{
+        width:90%;
+        margin: 0 auto;
+    }
+    .misa-training .collaborate-list .title {
+        color: #0085ad;
+        font-size: 22px;
+        padding: 15px 0;
+        line-height: 28px;
+    }
+
+    .misa-training .collaborate-list .logo {
+        border: 1px solid #ddd;
+        padding: 5px;
+        text-align: center;
+        width:180px;
+        height:150px;
+	  display: flex;
+	align-items: center;
+	  
+    }
+
+    .misa-training .collaborate-list img {
+        max-height: 170px;
+        max-width: 170px;
+    }
+
+
+    .misa-training .collaborate-list .org-name {
+        min-height: 60px;
+        height: auto;
+        width: 180px;
+        background:#f2f2f2;
+        padding: 5px;
+        text-align:center;
+    }
+
+    .misa-training .collaborate-list ul li {
+        display: inline-block;
+        padding: 0 4px 10px 4px;
+        vertical-align: top;
+    }
+
+.orange-button a {color:#fff;}
+
+.product-description, .product-description .product-info {margin-bottom:0px !important;}
+
+@media screen and (min-width: 980px) {
+
+  h1 {
+    font-size: 42px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  h4 {
+      font-size: 18px;
+  }
+}
+
+    @media screen and (max-width: 960px) {
+
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+   h4 {
+      font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+   h4 {
+      font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+/* Unslider */
+.Unslider{ position:relative; overflow:auto; color:#ffffff; text-align:center; padding:120px 0; background:url(../images/BannerBg.png) no-repeat;}
+.Unslider ul li{ display:block; float:left; list-style:none;}
+.Unslider ul li h3{ padding:0 0 10px 0; font-size:38px; color:#fff; text-transform:uppercase;}
+.Unslider ul li p{ max-width:680px; margin:0 auto; padding:20px 0 30px 0; font-size:15px; line-height:1.8em; color:#fff;}
+.Unslider .UsButton{ display:inline-block; margin:10px 0 0 0; background:rgba(255,255,255,.1); border:1px solid #fff; border-radius:3px; padding:17px 45px; font-weight:normal; font-size:14px; text-transform:uppercase; text-decoration:none; color:#fff; transition: all 0.2s ease 0s;}
+.Unslider .UsButton:hover{ border:1px solid #318CE7; color:#318CE7;} 
+.Unslider .dots{ position:absolute; left:0; bottom:30px; right:0;}
+.Unslider .dots li{ display:inline-block; border:2px solid #f1f1f1; border-radius:100%; height:10px; width:10px; margin:0 4px; opacity:0.4; text-indent:-999em; cursor:pointer; transition: background 0.5s ease 0s, opacity 0.5s ease 0s; -webkit-transition: background 0.5s ease 0s, opacity 0.5s ease 0s; -moz-transition: background 0.5s ease 0s, opacity 0.5s ease 0s;}
+.Unslider .dots li.active{ background:#ffffff; opacity:1;}
+
+@media only screen and (max-width: 768px) {
+.Unslider{ padding:50px 0;}
+.Unslider ul li h3{ font-size:22px;}
+.Unslider ul li p{ font-size:12px; padding:10px 0 15px;}
+.Unslider .UsButton{ padding:8px 20px; font-size:12px;}
+.Unslider .dots{ bottom:0;}
+}

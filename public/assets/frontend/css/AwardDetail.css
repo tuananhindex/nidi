@@ -1,0 +1,224 @@
+﻿.misa-award .header {
+    background-color: #009DCC;
+    height: 46px;
+}
+
+.misa-award-list.container {
+    background-color: #fff;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+.misa-award-list .desc {
+    padding-top: 10px;
+}
+
+.misa-award .header .container {
+    color: #fff;
+    font-size: 16px;
+    line-height: 46px;
+}
+
+
+.misa-award-item {
+    padding: 0 40px;
+}
+
+.misa-award-item img{
+    cursor:pointer;
+}
+
+    .misa-award-item .title {
+        text-align: center;
+        color: #0085ad;
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        line-height: 25px;
+    }
+
+    .misa-award-item .img-border {
+        border: 1px solid #eee;
+        padding: 5px;
+        display: inline;
+    }
+
+.misa-award .misa-award-content {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+
+    .modal-dialog {
+        padding-top: 4%;
+        width: 800px;
+        height: 533px;
+    }
+}
+
+#album-source {
+    text-align: center;
+}
+
+.modal-body .back, .modal-body .next {
+    background: url(Images/a11.png) no-repeat;
+}
+
+.modal-body .back {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    background-position: -20px -36px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+}
+
+
+.modal-body .next {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-position: -53px -36px;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+}
+
+.modal-body .album-name {
+    padding: 10px 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.modal-body .img-modal {
+    display: inline;
+}
+
+
+.modal-header {
+    padding: 5px 15px;
+}
+
+.jssort01 .w {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.jssort01 .c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    border: #000 1px solid;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c {
+    background: url(img/t01.png) center center;
+    border-width: 0px;
+    top: 0;
+    left: 0;
+    width: 72px;
+    height: 72px;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c {
+    top: 0px;
+    left: 0px;
+    width: 72px;
+    height: 72px;
+    border: #fff 1px solid;
+}
+
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(img/a17.png) no-repeat;
+    overflow: hidden;
+}
+
+.jssora05l {
+    background-position: -10px -40px;
+}
+
+.jssora05r {
+    background-position: -70px -40px;
+}
+
+.jssora05l:hover {
+    background-position: -130px -40px;
+}
+
+.jssora05r:hover {
+    background-position: -190px -40px;
+}
+
+.jssora05ldn {
+    background-position: -250px -40px;
+}
+
+.jssora05rdn {
+    background-position: -310px -40px;
+}
+
+.captionOrange, .captionBlack {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.captionOrange {
+    background: #EB5100;
+    background-color: rgba(235, 81, 0, 0.6);
+}
+
+.captionBlack {
+    font-size: 16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    a.captionOrange:hover {
+        color: #eb5100;
+        text-decoration: underline;
+        background-color: #eeeeee;
+        background-color: rgba(238, 238, 238, 0.7);
+    }
+
+
+#slider2_container .description {
+    color: #fff;
+    padding: 15px;
+    background: url('Images/album_title_bg.png') repeat;
+    text-align: center;
+    position:absolute;
+    left:0;
+    right:0;
+}
+
+.modal-header .close {
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width:980px) {
+    .misa-award-item {
+        padding: 0 0;
+    }
+}

@@ -1,0 +1,41 @@
+﻿
+#pin_news a {
+    color: #0085ad;
+}
+
+    #pin_news a:hover {
+        color: #FF9B00;
+        text-decoration: none;
+    }
+
+#pin_news .img-pad {
+    width: 100%;
+    height: 80px;
+    padding-bottom: 5px;
+}
+
+
+#pin_news .img-news {
+    width: 110px;
+    float: left;
+    margin-right:10px;
+}
+
+#pin_news ul li {
+    list-style-type: none;
+    border-bottom:1px solid #ddd;
+    padding: 5px 0;
+}
+#pin_news ul li:last-of-type {
+    border:none;
+}
+
+    #pin_news ul li a {
+        display: block;
+    }
+
+    #pin_news ul li:after {
+        clear:both;
+    }
+
+    #pin_news .pin-news-title {font-size:13px; padding:0; margin:0; line-height:21px;}

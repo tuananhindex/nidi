@@ -1,0 +1,38 @@
+﻿#dnnMenu{ height:75px; }
+#dnnMenu .topLevel { position:absolute;  margin:0; padding:0;  bottom:0; }
+#dnnMenu .topLevel li{float:left; margin:0 10px 0 0; list-style-type:none;  position:relative}
+#dnnMenu .topLevel li.last{ margin:0;}
+
+#dnnMenu .breadcrumb { background:none; border-radius:0; list-style:none; margin:0; padding:0;}
+#dnnMenu .topLevel li a{ display:block; color:#666; font-size:14px;}
+#dnnMenu .topLevel li.breadcrumb a,#dnnMenu .topLevel li.hover a, #dnnMenu .topLevel li a:hover{ color:#0085ad; text-decoration:none; border-radius:3px;}
+#dnnMenu .topLevel li a {color:#000;}
+#dnnMenu .topLevel li.selected a {color:#0085ad !important;}
+#dnnMenu .topLevel li a span{ display:block; height:40px; line-height:40px; margin:0; padding:0 15px; cursor:pointer}
+
+#dnnMenu .subLevel{ display:none; position:absolute; left:0; top:40px; margin:0; padding:0;  min-width:220px;}
+#dnnMenu .topLevel li.hover .subLevel{ white-space:nowrap;}
+#dnnMenu .subLevel ul{ position:relative; margin:0; padding:0 ; background:#fff; border-radius:0; border:1px solid #e1e1e1; z-index:1200;}
+#dnnMenu .subLevel li{ float:none; clear:both; width:auto; margin-right:0; padding:0; border-bottom:1px solid #e1e1e1;}
+#dnnMenu .subLevel li:last-child{ border-bottom:none;}
+#dnnMenu .subLevel li.haschild{ background:url(../images/MunuArrow.png) no-repeat 180px center;}
+
+#dnnMenu .subLevel li.item a{ background:#f2f2f2; padding:0 10px 0 8px; color:#000; font-size:12px; border-top:none; border-bottom:none; transition: all 0.2s linear 0s; -webkit-transition: all 0.2s linear 0s; -moz-transition: all 0.2s linear 0s; font-weight:bold}
+
+#dnnMenu .subLevel li.item a[href]{ background:none; padding:0 10px 0 15px; color:#0085ad; font-size:12px; border-top:none; border-bottom:none; transition: all 0.2s linear 0s; -webkit-transition: all 0.2s linear 0s; -moz-transition: all 0.2s linear 0s; font-weight: normal}
+
+#dnnMenu .subLevel li.item > a:hover,#dnnMenu .subLevel li.breadcrumb > a{ background:#fbfbfb; color:#318CE7;}
+#dnnMenu .subLevel li.item a:hover{ color:#000;}
+#dnnMenu .subLevel li.item a[href]:hover {color:#318CE7;}
+#dnnMenu .subLevel li.item a span{ height:34px !important; line-height:34px !important; padding:0; text-shadow:none; text-transform:none;}
+
+#dnnMenu .subLevelRight{ display:none; position:absolute; left:199px; top:-1px; width:200px;}
+#dnnMenu .subLevel li.hover > .subLevelRight{ display:block;}
+#dnnMenu .subLevelRight ul{ display:block;}
+#dnnMenu .subLevelRight ul li{ position:relative;}
+#dnnMenu .subLevelRight ul li.item a { display:block;}
+#dnnMenu .subLevelRight ul li.item a span{ display:block; white-space:nowrap; height:42px; line-height:42px;}
+
+@media only screen and (max-width: 980px) {
+#dnnMenu .topLevel li a span{ padding:0 10px;}
+}

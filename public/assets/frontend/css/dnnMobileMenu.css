@@ -1,0 +1,26 @@
+﻿#dnnMobileMenu{ height:auto; z-index:999999}
+#dnnMobileMenu .mobileTopLevel{ position:relative; height:auto; margin:0; padding:0;}
+#dnnMobileMenu .mobileTopLevel li{ position:relative; list-style-type:none; float:none; width:100%; border-top:1px solid #e1e1e1;}
+
+#dnnMobileMenu .breadcrumbMobile { background:none; border-radius:0; list-style:none; margin:0; padding:0;}
+#dnnMobileMenu .mobileTopLevel li a{ display:block; color:#555; font-size:13px;}
+#dnnMobileMenu .mobileTopLevel li.breadcrumbMobile a,#dnnMobileMenu .mobileTopLevel li.hover a, #dnnMobileMenu .mobileTopLevel li a:hover{ color:#0085ad; text-decoration:none;}
+#dnnMobileMenu .mobileTopLevel li a span{ display:block; height:42px; line-height:42px; margin:0; padding:0 15px; text-transform:uppercase;}
+
+#dnnMobileMenu .mobileSubLevel{ display:block; position:relative; width:100%; margin:0; padding:0;}
+#dnnMobileMenu .mobileSubLevel ul{ position:relative; margin:0; padding:0; background:#fff;}
+#dnnMobileMenu .mobileSubLevel li{ float:none; clear:both; width:auto; margin:0;}
+#dnnMobileMenu .mobileSubLevel li:last-child{ border-bottom:none;}
+#dnnMobileMenu .mobileSubLevel li.itemMobile a{ background:none; color:#666; font-size:12px; font-weight:bold}
+
+#dnnMobileMenu .mobileSubLevel li.itemMobile a[href]{ background:none; color:#0085ad ; font-size:12px; font-weight: normal}
+
+#dnnMobileMenu .mobileSubLevel li.itemMobile > a:hover,#dnnMobileMenu .mobileSubLevel li.breadcrumbMobile > a{ color:#318CE7;}
+#dnnMobileMenu .mobileSubLevel li.itemMobile a span{ height:40px; line-height:40px; padding:0 0 0 30px; text-shadow:none; text-transform:none;}
+
+#dnnMobileMenu .mobileSubLevelRight{ display:block; position:relative; width:100%;}
+#dnnMobileMenu .mobileSubLevel li .mobileSubLevelRight{ display:block;}
+#dnnMobileMenu .mobileSubLevelRight ul{ display:block;}
+#dnnMobileMenu .mobileSubLevelRight ul li{ position:relative;}
+#dnnMobileMenu .mobileSubLevelRight ul li.itemMobile a { display:block;}
+#dnnMobileMenu .mobileSubLevelRight ul li.itemMobile a span{ display:block; white-space:nowrap; height:40px; line-height:40px; padding:0 0 0 45px;}
